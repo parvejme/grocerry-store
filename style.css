@@ -1,0 +1,685 @@
+.contact-wrapper,
+.hero {
+    background: url(images/login-cover.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    color: green;
+}
+
+.carousel-height {
+    height: 100vh !important;
+    background: white !important;
+}
+
+.close-modal {
+    color: white !important;
+}
+
+/*  ===============
+Shop By Category
+================ */
+.login {
+    background: white !important;
+    color: green !important;
+    font-weight: bold !important;
+    border-radius: 2px !important;
+    padding: 10px 30px;
+}
+
+.login-page-button {
+    background-color: green !important;
+    color: white !important;
+}
+
+.login-card {
+    background: transparent;
+}
+
+.form-control span {
+    color: green !important;
+    font-size: 20px;
+}
+
+.form-control input {
+    background: transparent;
+    color: green !important;
+    border: 1px solid green !important;
+}
+
+.form-control a {
+    color: red !important;
+}
+
+.navbar-w {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 11111111111;
+}
+
+.footer-wrapper {
+    background-color: rgb(10, 49, 10) !important;
+}
+
+.footer-wrapper a,
+.footer-wrapper p {
+    color: white !important;
+}
+
+.footer-wrapper span {
+    color: orange !important;
+}
+
+.modal-box {
+    background: green !important;
+}
+
+.modal-box h3 {
+    color: #fff !important;
+    font-size: 25px !important;
+}
+
+.modal-box p {
+    font-size: 20px !important;
+    color: #000;
+    font-weight: 600 !important;
+}
+
+/*  ==================
+    Category Card 
+==================== */
+.category-wrapper {
+    padding: 100px 0;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.category-card {
+    width: 100%;
+    box-shadow: none !important;
+}
+
+.category-card h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: orange;
+}
+
+.category-card h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+}
+
+.category-card button {
+    background-color: green;
+    color: #fff;
+    border: 0;
+    border-radius: 2px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: capitalize;
+}
+
+
+/*  ====================
+    Newslater Styles 
+======================*/
+.newslater-wrapper {
+    padding: 50px 0;
+}
+
+.newslater {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.newslater img {
+    max-width: 700px;
+
+}
+
+.newslater h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: ;
+}
+
+.newslater h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: green;
+}
+
+.newslater p {
+    color: #000000a3;
+    font-size: 20px;
+}
+
+.newslater-form {
+    width: 500px;
+    margin: 15px 0;
+    display: flex;
+}
+
+.newslater-form input {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid green;
+}
+
+.newslater-form button {
+    background-color: green;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+
+}
+
+/*  ====================
+    Development Program
+====================== */
+.development-program-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    gap: 30px;
+}
+
+.development-program-wrapper img {
+    width: 50%;
+}
+
+.development-program h3 {
+    color: orange;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.development-program h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+}
+
+.development-program .pdv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+.development-program .pdv p {
+    color: #000;
+    text-align: left;
+}
+
+.progress-title {
+    color: green !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.progress {
+    margin-bottom: 20px;
+    height: 20px !important;
+}
+
+
+
+/* =====================
+    Accordian Container
+===================== */
+.accordion-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.accordion-container img {
+    width: 50%;
+}
+
+.accordion-info-wrapper {
+    width: 50%;
+}
+
+.accordion-container h3 {
+    color: orange;
+    font-size: 21px;
+}
+
+.accordion-container h2 {
+    font-size: 35px;
+    color: green;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.accordion {
+    margin-bottom: 20px;
+    background-color: rgba(255, 166, 0, 0.094) !important;
+    color: green;
+    border-radius: 10px !important;
+    border: 0;
+}
+
+
+/* ===================
+    Testimonial Section
+===================== */
+.review-wrapper {
+    background: url(images/bg1.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+
+.review-wrapper h1 {
+    font-size: 23px;
+}
+
+.review-wrapper h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: green;
+}
+
+.review-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 40px !important;
+}
+
+.review-container:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================================
+    Fresh Fruits online and organic Vegitable
+=========================================== */
+.ffov {
+    background: #FCEADB !important;
+}
+
+.ffov-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h3 {
+    color: red;
+    font-weight: 400;
+}
+
+.info h2 {
+    font-size: 30px;
+    color: rgb(239, 18, 18);
+    font-weight: 700;
+}
+
+.info h4 {
+    color: rgb(5, 74, 5);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.info button {
+    background-color: green;
+    border-radius: 2px;
+    padding: 10px 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* =====================
+    Contact Us Form
+====================== */
+form {
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form-title {
+    color: green !important;
+    font-size: 40px !important;
+    font-weight: 800 !important;
+    margin-bottom: 50px !important;
+}
+
+form label {
+    margin-bottom: 20px !important;
+    font-size: 20px !important;
+    color: green !important;
+    font-weight: 500 !important;
+}
+
+label input {
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid green;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px 15px !important;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid #858383;
+}
+
+.send-message-button {
+    background: green !important;
+    padding: 10px 30px !important;
+    margin: 0 auto !important;
+    border-radius: 30px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    margin-top: 10px !important;
+}
+
+
+/* ================
+    About Us Styles
+ ==================*/
+.about-us-wrapper {
+    background-color: white !important;
+}
+
+.about-us-wrapper img {
+    width: 100%;
+    height: 500px;
+    margin-top: -300px;
+}
+
+.about-us-info {
+    padding-top: 100px !important;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.about-us-info h1 {
+    color: green !important;
+    font-size: 40px !important;
+    font-weight: 800 !important;
+}
+
+.about-us-info p {
+    color: #000 !important;
+    font-size: 24px !important;
+}
+
+/*=======================
+ All Product
+ ===================== */
+.all-product-wrapper {
+    padding: 100px 0;
+}
+
+.all-product-wrapper .card-title {
+    font-size: 25px;
+}
+
+.all-product-wrapper h2 {
+    text-align: center;
+    color: green;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.all-product-wrapper button {
+    background-color: green;
+    border: 0;
+    border-radius: 2px;
+    padding: 8px 20px;
+    margin-top: 10px;
+}
+
+.all-product-wrapper button:hover {
+    background-color: rgba(13, 176, 13, 0.894);
+}
+
+.all-product-wrapper p {
+    color: #000;
+    font-weight: bold;
+}
+
+.all-product-wrapper .p-category {
+    font-size: 18px;
+    color: rgb(55, 221, 55);
+    font-weight: 500;
+}
+
+.product-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.error-wrapper {
+    background: #FFFFEB !important;
+}
+
+.error img {
+    max-height: 690px !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/*===================
+    Responsive Styles 
+ ===================*/
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+
+    .send-message-button {
+        width: 100%;
+    }
+
+    .category-wrapper {
+        padding: 30px 0;
+    }
+
+    .category-container {
+        display: block;
+
+    }
+
+    .category-card {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+
+    .newslater {
+        display: block;
+    }
+
+    .newslater img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .newslater-info {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .newslater-form {
+        display: block;
+    }
+
+    .newslater-form input {
+        margin-bottom: 10px;
+        width: 300px !important;
+        max-width: 50% !important;
+    }
+
+    .newslater-form button {
+        display: block;
+    }
+
+    .development-program-wrapper {
+        display: block;
+
+    }
+
+    .development-program-wrapper img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .development-program {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .accordion-container {
+        display: block;
+    }
+
+    .accordion-container img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .accordion-info-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .accordion-info-wrapper h2 {
+        font-size: 25px;
+    }
+
+    .review-container {
+        width: 85% !important;
+        margin: 0 auto;
+    }
+
+    .review-wrapper h1 {
+        font-size: 18px;
+    }
+
+    .ffov-wrapper {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .ffov-wrapper img {
+        width: 50%;
+    }
+
+    .middle-section {
+        display: none;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info h4 {
+        font-size: 19px;
+    }
+
+    .info button {
+        padding: 8px 15px;
+    }
+
+    .right-section {
+        margin-top: 20px;
+        padding-left: 10px !important;
+    }
+
+    .product-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .carousel-height {
+        height: 250px !important;
+    }
+
+    .btn-circle {
+        background: transparent !important;
+        border: 0;
+        color: green !important;
+        font-size: 28px !important;
+        font-weight: bold !important;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .about-us-wrapper img {
+        height: 200px;
+        margin-top: 0px;
+        z-index: -1;
+    }
+
+    .about-us-info {
+        padding-top: 30px !important;
+        width: 90%;
+        margin-left: 20px;
+        z-index: 11111111111;
+    }
+}
+
+/* Preloader */
+#preloader {
+    background: #E9E7E9 url(images/loading-16.gif) no-repeat center center !important;
+    background-size: 15% !important;
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 100 !important;
+
+}

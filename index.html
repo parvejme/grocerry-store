@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grocerry</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- navbar-w -->
+
+    <header class="bg-lime-900 text-white w-full">
+        <!-- Top Menu Section -->
+        <div class="navbar container mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-lime-900 rounded-box w-52">
+                        <li>
+                            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                        </li>
+                        <li>
+                            <a href="shop.html"><i class="fa-solid fa-cart-shopping"></i> Shop</a>
+                        </li>
+                        <li>
+                            <a href="about.html"><i class="fa-solid fa-address-card"></i> About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost normal-case text-xl">
+                    <img src="images/logo.png" class="w-20" alt="">
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li>
+                        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="shop.html"><i class="fa-solid fa-cart-shopping"></i> Shop</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><i class="fa-solid fa-address-card"></i> About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="fa-solid fa-cart-shopping me-4"></i>
+                <a href="login.html" class="btn btn-ghost-800 text-white login">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <div class="carousel w-full carousel-height">
+                <div id="slide1" class="carousel-item relative w-full carousel-height">
+                    <img src="/images/slider1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/images/slider2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="/images/slider3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="/images/slider4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start main section -->
+    <main>
+        <!-- Category Card -->
+        <section class="category-wrapper bg-white">
+            <div class="category-container container mx-auto">
+                <!-- Category 01 -->
+                <div class="card category-card shadow-none image-full">
+                    <figure><img src="images/card/Img-D1.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h3>Explore Seasonal</h3>
+                        <h2 class="card-title">Organic Vegetables</h2>
+                        <p>Best of Health</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Shop all</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 02 -->
+                <div class="card category-card shadow-none image-full">
+                    <figure><img src="images/card/Img-D3.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h3>WORLD CLASS FRUITS</h3>
+                        <h2 class="card-title">100% NATURAL FRUITS</h2>
+                        <p>Good Alternative Nutrition</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Shop all</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 03 -->
+                <div class="card category-card shadow-none image-full">
+                    <figure><img src="images/card/Img-D2.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h3>AWARD WINNING</h3>
+                        <h2 class="card-title">FARM VEGETABLES</h2>
+                        <p>Really Fresh Vegetables</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Shop all</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fresh fruits and vegitables online store -->
+        <section class="bg-orange-100 ffov">
+            <div class="container ffov-wrapper mx-auto">
+                <div class="left-section">
+                    <img src="images/fruits.png" alt="">
+                    <div class="info">
+                        <h3>Shop For</h3>
+                        <h2>FRESH FRUITS ONLINE</h2>
+                        <h4>And Save upto 40%</h4>
+                        <button>View All Items</button>
+                    </div>
+                </div>
+                <div class="middle-section">
+                    <img src="images/leap.png" alt="">
+                </div>
+                <div class="right-section">
+                    <div class="info">
+                        <h3>Shop For</h3>
+                        <h2>ORGANIC VEGETABLES</h2>
+                        <h4>Get Upto 50% Off</h4>
+                        <button>View All Items</button>
+                    </div>
+                    <img src="images/vagitable.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Show All Proejcts -->
+        <section class="bg-white">
+            <div class="container mx-auto all-product-wrapper">
+                <h2>Farm Fresh Prducts</h2>
+                <div class="product-wrapper">
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-12-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Marrow Vegetables</p>
+                            <h2 class="card-title">Purple Eggplant</h2>
+                            <p>Price: 50 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-14-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Marrow Vegetables</p>
+                            <h2 class="card-title">Green Bitter Melon Gourd</h2>
+                            <p>Price: 40 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-15-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Cruciferous Vegetables</p>
+                            <h2 class="card-title">Red Cabbage</h2>
+                            <p>Price: 27 Taka</p>
+                            <p>Weight: 0.5 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-16-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Leaf Green Vegetables</p>
+                            <h2 class="card-title">Yellow Potatoes</h2>
+                            <p>Price: 32 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-17-1-1.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Allium Vegetables</p>
+                            <h2 class="card-title">German Porcelain Garlic</h2>
+                            <p>Price: 85 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-20-4.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Root Vegetables</p>
+                            <h2 class="card-title">Whole Brown Mushrooms</h2>
+                            <p>Price: 150 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-3-1.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Root Vegetables</p>
+                            <h2 class="card-title">Organic Broccoli</h2>
+                            <p>Price: 90 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-5-1.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Allium Vegetables</p>
+                            <h2 class="card-title">Cesnok Red Garlic</h2>
+                            <p>Price: 60 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/FVegetables/shop-9-1.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Marrow Vegetables</p>
+                            <h2 class="card-title">Yellow Pumpkin</h2>
+                            <p>Price: 50 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-1-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Legumes</p>
+                            <h2 class="card-title">Fresh Roma Tomato</h2>
+                            <p>Price: 70 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-10-1.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Seeds</p>
+                            <h2 class="card-title">Organic Sweet Corn</h2>
+                            <p>Price: 24 Taka</p>
+                            <p>Weight: 0.5 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-13-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Legumes</p>
+                            <h2 class="card-title">Thai Fresh Chili</h2>
+                            <p>Price: 120 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-18-4.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Nuts</p>
+                            <h2 class="card-title">Organic Raw Cashews</h2>
+                            <p>Price: 350 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-19-4.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Nuts</p>
+                            <h2 class="card-title">Golden Raisins</h2>
+                            <p>Price: 250 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-4-1.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Seed</p>
+                            <h2 class="card-title">Organic Sweet Peas</h2>
+                            <p>Price: 65 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-6-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Legumes</p>
+                            <h2 class="card-title">Whole Carrots</h2>
+                            <p>Price: 30 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-7-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Cruciferous Vegetables</p>
+                            <h2 class="card-title">Green Cabbage</h2>
+                            <p>Price: 35 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-2-4.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Marrow Vegetables</p>
+                            <h2 class="card-title">Color Bell Pepper</h2>
+                            <p>Price: 65 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-8-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Root Vegetables</p>
+                            <h2 class="card-title">Purple Seet Potato</h2>
+                            <p>Price: 40 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-90 shadow-xl">
+                        <figure><img src="/images/fruits/shop-11-2.jpg" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <p class="p-category">Cruciferous Vegetables</p>
+                            <h2 class="card-title">Organic Cauliflower</h2>
+                            <p>Price: 45 Taka</p>
+                            <p>Weight: 1 Kg</p>
+                            <div class="card-actions justify-between">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-primary"><i class="fa-sharp fa-solid fa-cart-plus mr-2"></i> Add
+                                    To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Agricultural Development Program -->
+        <section class="bg-orange-50">
+            <div class="container mx-auto development-program-wrapper">
+                <div class="development-program">
+                    <h3>Agricultural Development Program</h3>
+                    <h2>Fundraising to save rare crops and help farmers</h2>
+                    <div class="pdv">
+                        <div class="progressD">
+                            <h2>300+</h2>
+                            <p>Programs</p>
+                        </div>
+                        <div class="donations">
+                            <h2>100+</h2>
+                            <p>Donations</p>
+                        </div>
+                        <div class="volunteers">
+                            <h2>10K</h2>
+                            <p>Volunteers</p>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <h3 class="progress-title">Farmers Welfare</h3>
+                        <progress class="progress progress-success" value="75" max="100"></progress>
+
+                        <h3 class="progress-title">Rural Agriculture Funding</h3>
+                        <progress class="progress progress-success" value="64" max="100"></progress>
+
+                        <h3 class="progress-title">Agri Projects</h3>
+                        <progress class="progress progress-success" value="37" max="100"></progress>
+                    </div>
+                </div>
+                <img src="images/v.png" alt="">
+            </div>
+        </section>
+
+        <!-- Accordian -->
+        <section class="bg-white">
+            <div class="container mx-auto accordion-container">
+                <img src="images/accordian.png" alt="">
+                <div class="accordion-info-wrapper">
+                    <h3>Questions & Our Advisers Answers</h3>
+                    <h2>Common organic farming and agriculture questions</h2>
+                    <div>
+                        <div tabindex="0"
+                            class="collapse accordion collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                Aliquam Vitaeante Aerosrutrum Auctor
+                            </div>
+                            <div class="collapse-content">
+                                <p>Aliquam vel orci nec nibh venenatis dictum. Fusce efficitur molestie feugiat. Sed
+                                    faucibus vestibulum nunc, eu mollis lorem mattis at. Donec tristique felis quis
+                                    bibendum sollicitudin.</p>
+                            </div>
+                        </div>
+
+                        <div tabindex="0"
+                            class="collapse accordion collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                Donec faucibus mi eget aliquam lacinia.
+                            </div>
+                            <div class="collapse-content">
+                                <p>Error sit, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
+                                    Sed ut perspiciatis unde omnis iste natus</p>
+                            </div>
+                        </div>
+
+                        <div tabindex="0"
+                            class="collapse accordion collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                Uliquam lacinia donec faucibus mi eget .
+                            </div>
+                            <div class="collapse-content">
+                                <p>Ran ut perspiciatis unde omnis iste natus error sit, eaque ipsa quae ab illo
+                                    inventore veritatis et quasi architecto beatae.</p>
+                            </div>
+                        </div>
+
+                        <div tabindex="0"
+                            class="collapse accordion collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                Curabitur posuere arcu et consectetur posuere.
+                            </div>
+                            <div class="collapse-content">
+                                <p>Ran ut perspiciatis unde omnis iste natus error sit, eaque ipsa quae ab illo
+                                    inventore veritatis et quasi architecto beatae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review Section -->
+        <section class="review-wrapper">
+            <div class="container mx-auto">
+                <h2>Popular Review</h2>
+                <div class="review-container h-25 flex flex-col items-center justify-center gap-8">
+                    <h1 class="text-4xl text-gray-600 leading-relaxed text-center w-4/5">
+                        "Cam eu varius ipsum, vitae vehicula eros. Praesent vehicula molestie magna eu dapibus. Nullam
+                        id nibh iaculis, commodo ligula in, finibus arcu. Praesent risus nulla, commodo vitae pharetra
+                        sed, venenatis at lorem."
+                    </h1>
+                    <div class="flex items-center gap-4">
+                        <div class="rounded-full w-12 h-12 bg-black overflow-hidden">
+                            <img src="https://rairaksa.github.io/assets/img/rai.jpg" />
+                        </div>
+                        <div class="flex flex-col tracking-wider">
+                            <label class="text-gray-600 font-bold text-base">Dennis Ethan</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-container h-25 flex flex-col items-center justify-center gap-8">
+                    <h1 class="text-4xl text-gray-600 leading-relaxed text-center w-4/5">
+                        "Nam eu varius ipsum, vitae vehicula eros. Praesent vehicula molestie magna eu dapibus. Nullam
+                        id nibh iaculis, commodo ligula in, finibus arcu. Praesent risus nulla, commodo vitae pharetra
+                        sed, venenatis at lorem."
+                    </h1>
+                    <div class="flex items-center gap-4">
+                        <div class="rounded-full w-12 h-12 bg-black overflow-hidden">
+                            <img src="https://rairaksa.github.io/assets/img/rai.jpg" />
+                        </div>
+                        <div class="flex flex-col tracking-wider">
+                            <label class="text-gray-600 font-bold text-base">Rai Raksa Muhamad</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Newslater section  -->
+        <section class="bg-white newslater-wrapper">
+            <div class="container mx-auto newslater">
+                <img src="images/news-01.png" alt="">
+                <div class="newslater-info">
+                    <h3>Newsletter</h3>
+                    <h2>Subscribe For Discount</h2>
+                    <p>Aliquam vel orci nec nibh venenatis dictum. Fusce efficitur molestie feugiat. <br> Sed faucibus
+                        vestibulum nunc.</p>
+                    <div class="newslater-form">
+                        <input type="email" placeholder="Email Address">
+                        <button class="subscribe-now">Subscribe Now</button>
+                    </div>
+                    <p><small>Vestibulum imperdiet, sapien ac ullamcorper</small></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Main Section -->
+
+
+    <!-- Footer Section -->
+    <section class="bg-base-200 footer-wrapper">
+        <footer class="footer p-10 container mx-auto text-base-content">
+            <div>
+                <img src="images/logo.png" alt="" class="w-24">
+                <path
+                    d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
+                </path>
+                </svg>
+                <p>
+                    Copyright &copy; 2023 Grocerry&reg;. <br> All rights reserved.
+                </p>
+            </div>
+            <div>
+                <span class="footer-title">User Area</span>
+                <a class="link link-hover">My Account</a>
+                <a class="link link-hover">My Cart</a>
+                <a class="link link-hover">Login</a>
+                <a class="link link-hover">Checkout</a>
+            </div>
+            <div>
+                <span class="footer-title">Sopping Guide</span>
+                <a class="link link-hover">Payment</a>
+                <a class="link link-hover">Shipment</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Return Policy</a>
+            </div>
+            <div>
+                <span class="footer-title">Legal</span>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/441d9a294b.js" crossorigin="anonymous"></script>
+
+    <!-- Loader Script -->
+    <script>
+        let loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+</body>
+
+</html>
